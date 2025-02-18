@@ -1,0 +1,25 @@
+npm create vite@latest admin-pacientes -- --template vue
+npm install
+npm run dev
+
+Tailwind
+
+***npm install -D tailwindcss postcss autoprefixer
+***npx tailwindcss init -p
+
+Nuevo
+    npm install tailwindcss @tailwindcss/vite
+
+    vite.config.ts
+        import { defineConfig } from 'vite'
+        import tailwindcss from '@tailwindcss/vite'
+        export default defineConfig({
+        plugins: [
+            tailwindcss(),
+        ],
+        })
+
+    @import "tailwindcss";
+
+
+npm install uid
